@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Linking the stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Linking the Jquery script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".fa-search").click(function () {
+                $(".icon").toggleClass("active");
+                $("input[type='text']").toggleClass("active");
+            });
+        }); 
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" class="col"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" class="col"></script>
+    <link rel="stylesheet" href="/CSS/sample.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            EchoTales
+        </div>
+
+        <div class="nav-items">
+
+            <!-- The Menu items -->
+            <li><a href="sample.html"><b>HOME</b></a></li>
+            <li><a href="/HTML/audiobooks-final.html"><b>AUDIO BOOKS</b></a></li>
+
+            <li><a href="/HTML/podcast-final.html"><b>PODCASTS</b></a></li>
+            <li><a href="/HTML/Favourites.html"><b>FAVOURITES</b></a></li>
+        </div>
+        <label for="searchInput"></label>
+        <input type="text" id="searchInput" oninput="searchBooks()" placeholder="Enter book name">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+            onclick="searchBooks();" viewBox="0 0 16 16">
+            <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+        </svg>
+        <div id="bookList" style="background-color: wheat;">
+        </div>
+
+
+        <!-- Defining the login button -->
+        <div class="licon">
+            <ul>
+                <li id="login">
+                    <a href="login-final.html" style="color:white;font-size: medium;">Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="licon">
+            <ul>
+                <li id="signup">
+                    <a href="signup-final.html" style="color:white;font-size: medium;">Sign Up
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="licon">
+            <ul>
+                <!-- <li id="myprofile"style="display: none;">
+                <a href="myprofile.html" style="color:white;font-size: medium;">MY Profile
+                </a>
+            </li> -->
+                <div class="dropdown">
+                    <li id="myprofile" style="color:white;font-size: medium;display:none;"><b>MY Profile</b></li>
+                    <div class="dropdown-content">
+                        <a href="login-final.html">Sign Out</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Welcome to EchoTales Audible</h1>
+        <p class="text-center">Discover thousands of audiobooks and podcasts from EchoTales</p>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/IMAGES/h3.webp" class="d-block w-100" alt="A" style="height: 500px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="/IMAGES/h4.jpg" class="d-block w-100" alt="B" style="height: 500px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="/IMAGES/h5.jpg" class="d-block w-100" alt="C" style="height: 500px;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <br>
+        <!--Best Seller-->
+        <section class="book-store">
+            <h2>Best Seller</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <!--Slide-1-->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a1.jpg" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a2.png" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a3.jpg" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a4.jpg" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a5.jfif" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a6.jpg" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!--Slide-2-->
+                                    <div class="carousel-item ">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a7.jpg" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a8.jpg" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a9.jpg" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a10.webp" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a11.jpg" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a12.jfif" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!--Slide-3-->
+                                    <div class="carousel-item ">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a13.png" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a14.png" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a15.png" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a16.png" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a17.png" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a18.png" class="d-block w-100" alt="..."
+                                                    style="height:130px">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--Recent Release-->
+        <section class="book-store">
+            <h2>Recent Release</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <!--Slide-1-->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a19.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a20.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a21.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a22.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a23.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a24.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!--Slide-2-->
+                                    <div class="carousel-item ">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a25.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a26.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a27.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a28.jpg" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a29.png" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a30.jpg" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!--Slide-3-->
+                                    <div class="carousel-item ">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a31.jpg" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a32.webp" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a33.jpg" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a34.jpg" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a35.jfif" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <img src="/IMAGES/a36.webp" class="d-block w-100" alt="..."
+                                                    style="height:135px">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <br>
+
+
+
+    </div>
+    <footer>
+        <div class="footer">
+            <u>About Us:</u> "Echotales" is an innovative audible app designed to immerse users in captivating and
+            diverse
+            audio content. With a focus on delivering an exceptional listening experience, Echotales offers a wide range
+            of content to cater to various interests and preferences.
+            <hr>
+            <div id="echo12" style="text-align: center;">@©Copyright EchoTales</div>
+        </div>
+    </footer>
+
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="section-row">
+                        <a href="">Facebook</a>
+                        <a href="">Twitter</a>
+                        <a href="">Instagram</a>
+                        <a href="">Help</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section-row">
+                        <a href="">Know more about audible</a>
+                        <a href="">Learn more about Membership</a>
+                        <a href="">Best Seller</a>
+                        <a href="">New Releases</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section-row">
+                        <a href="">self Developments</a>
+                        <a href="">Hindi Audiobooks</a>
+                        <a href="">Free shows</a>
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-row">
+                        <p>@copyright @2023 Audible <span></span></p>
+                        <a href="">Privacy Policy <span></span></a>
+                        <a href="">India (English)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="/JS/search.js"></script>
+
+</body>
+
+</html>

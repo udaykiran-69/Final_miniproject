@@ -1,0 +1,219 @@
+/* Importing the fonts */ 
+@import url( 'https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap'); 
+* { 
+    margin: 0; 
+    padding: 0; 
+    outline: none; 
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif; 
+} 
+
+/* Body of the page */ 
+body { 
+    background: wheat; 
+} 
+
+/* Styling all the elements in nav as a whole */ 
+nav { 
+    background: rgb(122, 78, 38); 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: space-between; 
+    height: 70px; 
+    padding: 0 100px; 
+} 
+
+/* Styling the logo */ 
+nav .logo { 
+    color: #fff; 
+    font-size: 30px; 
+    font-weight: 600; 
+    letter-spacing: -1px; 
+} 
+
+/* Styling all the nav items as a whole */ 
+nav .nav-items { 
+    display: flex; 
+    flex: 1; 
+    padding: 0 0 0 130px; 
+} 
+
+/* Styling the list items in the nav tag */ 
+nav .nav-items li { 
+    list-style: none; 
+    padding: 0 10px; 
+} 
+
+/* Styling each list items */ 
+nav .nav-items li a { 
+    color: #fff; 
+    font-size: 15px; 
+    font-weight: 500; 
+    text-decoration: none; 
+} 
+
+/* Setting the hover colour on the list items*/ 
+
+nav .nav-items li a:hover { 
+    color: #19191b; 
+} 
+
+nav .searchbar { 
+    position: relative; 
+} 
+
+/* Styling the search box where the 
+    input would be given */ 
+nav .searchbar input[type="text"] { 
+    border: 0; 
+    padding: 0; 
+    width: 0px; 
+    height: 35px; 
+    border-radius: 3px; 
+    transition: all 0.3s ease; 
+} 
+
+/* Styling the search bar icon */ 
+nav .searchbar .icon { 
+    display: flex; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 35px; 
+    height: 100%; 
+    background: none; 
+    border-radius: 3px; 
+    color: #fff; 
+    transition: all 0.5s 0.3s ease; 
+} 
+
+nav .searchbar .icon i { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    cursor: pointer; 
+} 
+
+nav .searchbar .icon.active { 
+    background: white; 
+    transition: all 0.3s ease;
+}
+
+nav .searchbar input[type="text"].active { 
+    width: 250px; 
+    padding: 0 10px; 
+    transition: all 0.5s 0.2s ease; 
+} 
+
+nav .licon li { 
+    list-style: none; 
+    display: flex; 
+} 
+
+nav .licon li a { 
+    padding: 0 20px; 
+} 
+
+/* Changing the colour of the login 
+    icon when hovered over*/ 
+
+.fa-user-circle:hover { 
+    color: #0e0d0d !important; 
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.padded-image{
+    width:100%;
+    height:50px;
+}
+.image-box{
+    width:200px;
+    padding:20px;
+    border:1px solid black;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#search-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.footer{
+    position: sticky;
+    bottom:0;
+    left:0;
+    z-index:10;
+    border: 10px;
+    height:90px;
+    background: rgb(122, 78, 38); 
+    font-size: 15px;
+    color:white;
+
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:red;
+}
+

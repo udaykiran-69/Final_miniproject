@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "IKIGAI",
+        
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/511HccWipML._SL500_.jpg" } } },
+        "audio": "js/canterburytales_53_chaucer_64kb.mp3"
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "BHAGAVAD GITA",
+       
+        "image": { "fields": { "file": { "url":"https://m.media-amazon.com/images/I/71pJUadgKCS._AC_UY218_.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "MORBID",
+        
+        "image": { "fields": { "file": { "url": "http://t1.gstatic.com/images?q=tbn:ANd9GcRtlYQBGdYfYfb-e6NBcd2Dq8LcNXrEgZlquIuwb1l656ucWOjW"} } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "MENTAL HEALTH",
+        
+        "image": { "fields": { "file": { "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS4gXpvNLuWlquA4hUO1eAkzYqv7M-ZSvx5jdprovr8VP-PkTDk" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "SPORTS WARS",
+        
+        "image": { "fields": { "file": { "url": "http://t1.gstatic.com/images?q=tbn:ANd9GcTwRw4Hz1PKCEV8LV6bm3a71vpD8HmQjYyHp5BlP44VJl5GLXgN"} } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "THE RUN_THROUGH WITH VOGUE",
+      
+        "image": { "fields": { "file": { "url": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660818388cea16818289a2_Run%20through.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "THE REST IS HISTORY",
+      
+        "image": { "fields": { "file": { "url": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660c24225dc37b643513c1_The%20rest%20is%20history.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "THE REWATCHABLES",
+       
+        "image": { "fields": { "file": { "url": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/6566085a6edc9af8106219c1_rewatchables.webp" } } }
+      }
+    }
+  ]
+}

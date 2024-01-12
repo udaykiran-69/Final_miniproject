@@ -1,0 +1,1365 @@
+{
+
+  "audio": [
+
+    {
+
+      "id": 1,
+
+      "title": "Space Academy",
+
+      "author": "Héctor García, Francesc Miralles",
+
+      "img": "/IMAGES/a1.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 2,
+
+      "title": "Rich dad & Poor dad",
+
+      "author": "Morgan Housel",
+
+      "img": "/IMAGES/a2.png",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 3,
+
+      "title": "Greenlights",
+
+      "author": "Sadhguru, Leslie Howard",
+
+      "img": "/IMAGES/a3.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 4,
+
+      "title": "Unfinished",
+
+      "author": "Barack Obama",
+
+      "img": "/IMAGES/a4.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 5,
+
+      "title": "Friends,lovers and the big terrible thing",
+
+      "author": "typicode",
+
+      "img": "/IMAGES/a5.jfif",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 5,
+
+      "title": "I Am Malala",
+
+      "author": " David Goggins",
+
+      "img": "/IMAGES/a6.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 6,
+
+      "title": "Einstein : His life & universe",
+
+      "author": "J.K. Rowling",
+
+      "img": "/IMAGES/a7.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 7,
+
+      "title": "Me before You",
+
+      "author": "Douglas Adams",
+
+      "img": "/IMAGES/a8.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 8,
+
+      "title": "Spider-Man",
+
+      "author": "Paulo Coelho",
+
+      "img": "/IMAGES/a9.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 9,
+
+      "title": "The lord of rings",
+
+      "author": " Matt Haig",
+
+      "img": "/IMAGES/a10.webp",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 10,
+
+      "title": "Scorched Earth",
+
+      "author": " Amish Tripathi",
+
+      "img": "/IMAGES/a11.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 11,
+
+      "title": "The Last Astronaut",
+
+      "author": " Amish Tripathi",
+
+      "img": "/IMAGES/a12.jfif",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    }
+
+  ],
+
+  "podcasts": [
+
+ 
+
+    {
+
+ 
+
+      "id": 1,
+
+ 
+
+      "title": "Ikigai",
+
+ 
+
+      "author": "Hector Garcia",
+
+ 
+
+      "img": "https://m.media-amazon.com/images/I/511HccWipML._SL500_.jpg",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 2,
+
+ 
+
+      "title": "Bhagavad Gita",
+
+ 
+
+      "author": "Srila Prabhupada",
+
+ 
+
+      "img": "https://m.media-amazon.com/images/I/71pJUadgKCS._AC_UY218_.jpg",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 3,
+
+ 
+
+      "title": "MORBID",
+
+ 
+
+      "author": "Alaina Urquhart",
+
+ 
+
+      "img": "http://t1.gstatic.com/images?q=tbn:ANd9GcRtlYQBGdYfYfb-e6NBcd2Dq8LcNXrEgZlquIuwb1l656ucWOjW",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 4,
+
+ 
+
+      "title": "BBC-Global-News",
+
+ 
+
+      "author": "Claudia Anne Hammond",
+
+ 
+
+      "img": "https://blog-frontend.envato.com/cdn-cgi/image/width=1024,quality=75,format=auto/uploads/2021/10/BBC-Global-News.jpeg",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 5,
+
+ 
+
+      "title": "SPORTS WARS",
+
+ 
+
+      "author": "host Dan Rubenstein",
+
+ 
+
+      "img": "http://t1.gstatic.com/images?q=tbn:ANd9GcTwRw4Hz1PKCEV8LV6bm3a71vpD8HmQjYyHp5BlP44VJl5GLXgN",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 6,
+
+ 
+
+      "title": "MENTAL HEALTH",
+
+ 
+
+      "author": "Paul Gilmartin",
+
+ 
+
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS4gXpvNLuWlquA4hUO1eAkzYqv7M-ZSvx5jdprovr8VP-PkTDk",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 7,
+
+ 
+
+      "title": "The Run-through with Vogue",
+
+ 
+
+      "author": "Claudia Anne Hammond ",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660818388cea16818289a2_Run%20through.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 8,
+
+ 
+
+      "title": "The Rewatchables",
+
+ 
+
+      "author": "Ringer's Bill",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/6566085a6edc9af8106219c1_rewatchables.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 9,
+
+ 
+
+      "title": "Critical Role",
+
+ 
+
+      "author": " TMatthew Mercer",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/6566098d24e51f626c615359_Critical%20role.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 10,
+
+ 
+
+      "title": "On Purpose",
+
+ 
+
+      "author": "Jay Shetty",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660a136edc9af8106386af_Jay%20shetty.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 11,
+
+ 
+
+      "title": "The Rest is History",
+
+ 
+
+      "author": "Tom Holland, Dominic Sandbrook",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660c24225dc37b643513c1_The%20rest%20is%20history.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 12,
+
+ 
+
+      "title": "Pod Save the World",
+
+ 
+
+      "author": "Tommy Vietor",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660d577b137794aa69990a_Pod%20save%20the%20world.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 13,
+
+ 
+
+      "title": "Deadly Manners",
+
+ 
+
+      "author": "Jay Shetty",
+
+ 
+
+      "img": "https://assets-global.website-files.com/634e7aa49f5b025e1fd9e87b/652058e597b9dc0dae8bc9b8_9knmgSndCKUUKqN9kvSA6YvAjc_JcmwNBIq-MrPLcT8rJgrRDxAMwTD9HxFhbnfaOetEyJD36VrOfeTCpA_nCp_ofdQ76PcR0E1xGO-ZbQYxCWTZpZiNStmljVQe2SK-3pk-5szOyXJI-SrEg9X8sG0.png",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 14,
+
+ 
+
+      "title": "Limetown",
+
+ 
+
+      "author": "Tom Holland, Dominic Sandbrook",
+
+ 
+
+      "img": "https://pyxis.nymag.com/v1/imgs/123/60e/930abf76983beaa67aaee189a922fa2b9f-limetown.rsquare.w570.png",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 15,
+
+ 
+
+      "title": "Homecoming",
+
+ 
+
+      "author": "Tommy Vietor",
+
+ 
+
+      "img": "https://pyxis.nymag.com/v1/imgs/9c0/3c3/32b12ccef5a20eac1a96ad222b1cbdec8d-homecoming.rsquare.w570.png",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 16,
+
+ 
+
+      "title": "The Bright Sessions",
+
+ 
+
+      "author": "Lauren Shippen, starring Julia Morizawa",
+
+ 
+
+      "img": "https://pyxis.nymag.com/v1/imgs/fb7/30b/8891b76fc43e26ca234ec20a1603ad6e2b-the-bright-sessions.rsquare.w570.jpg",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 17,
+
+ 
+
+      "title": "The One Piece Podcast",
+
+ 
+
+      "author": "Zach Logan",
+
+ 
+
+      "img": "https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_720/images.spreaker.com/original/2cbc8f8a3edc9b2eb40fe823809dcebf.jpg",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 18,
+
+ 
+
+      "title": "MobCast Mafia Anime",
+
+ 
+
+      "author": "A.J., Lexy, Zac",
+
+ 
+
+      "img": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/3851237/3851237-1686548670955-e35ac19cdc2e7.jpg",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 19,
+
+ 
+
+      "title": "Otaku Cram School",
+
+ 
+
+      "author": "Chris, Ebónné, Mike",
+
+ 
+
+      "img": "https://imgix.ranker.com/user_node_img/50086/1001718275/original/otaku-cram-school-photo-u1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 20,
+
+ 
+
+      "title": "Anime live",
+
+ 
+
+      "author": "Join Ronny",
+
+ 
+
+      "img": "https://i1.feedspot.com/200/5455619.jpg?t=1665572046",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    }
+
+ 
+
+  ],
+
+  "audioorpodcasts": [
+
+    {
+
+ 
+
+      "id": 101,
+
+ 
+
+      "title": "Ikigai",
+
+ 
+
+      "author": "Hector Garcia",
+
+ 
+
+      "img": "https://m.media-amazon.com/images/I/511HccWipML._SL500_.jpg",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 20,
+
+ 
+
+      "title": "Bhagavad Gita",
+
+ 
+
+      "author": "Srila Prabhupada",
+
+ 
+
+      "img": "https://m.media-amazon.com/images/I/71pJUadgKCS._AC_UY218_.jpg",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 30,
+
+ 
+
+      "title": "MORBID",
+
+ 
+
+      "author": "Alaina Urquhart",
+
+ 
+
+      "img": "http://t1.gstatic.com/images?q=tbn:ANd9GcRtlYQBGdYfYfb-e6NBcd2Dq8LcNXrEgZlquIuwb1l656ucWOjW",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 40,
+
+ 
+
+      "title": "BBC-Global-News",
+
+ 
+
+      "author": "Claudia Anne Hammond",
+
+ 
+
+      "img": "https://blog-frontend.envato.com/cdn-cgi/image/width=1024,quality=75,format=auto/uploads/2021/10/BBC-Global-News.jpeg",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 50,
+
+ 
+
+      "title": "SPORTS WARS",
+
+ 
+
+      "author": "host Dan Rubenstein",
+
+ 
+
+      "img": "http://t1.gstatic.com/images?q=tbn:ANd9GcTwRw4Hz1PKCEV8LV6bm3a71vpD8HmQjYyHp5BlP44VJl5GLXgN",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 60,
+
+ 
+
+      "title": "MENTAL HEALTH",
+
+ 
+
+      "author": "Paul Gilmartin",
+
+ 
+
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS4gXpvNLuWlquA4hUO1eAkzYqv7M-ZSvx5jdprovr8VP-PkTDk",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 70,
+
+ 
+
+      "title": "The Run-through with Vogue",
+
+ 
+
+      "author": "Claudia Anne Hammond ",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660818388cea16818289a2_Run%20through.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 80,
+
+ 
+
+      "title": "The Rewatchables",
+
+ 
+
+      "author": "Ringer's Bill",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/6566085a6edc9af8106219c1_rewatchables.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 90,
+
+ 
+
+      "title": "Critical Role",
+
+ 
+
+      "author": " TMatthew Mercer",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/6566098d24e51f626c615359_Critical%20role.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+ 
+
+    {
+
+ 
+
+      "id": 100,
+
+ 
+
+      "title": "On Purpose",
+
+ 
+
+      "author": "Jay Shetty",
+
+ 
+
+      "img": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660a136edc9af8106386af_Jay%20shetty.webp",
+
+ 
+
+      "aud":"/AUDIO/audio.mp3"
+
+ 
+
+    },
+
+   
+
+    {
+
+      "id": 1,
+
+      "title": "Space Academy",
+
+      "author": "Héctor García, Francesc Miralles",
+
+      "img": "/IMAGES/a1.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 2,
+
+      "title": "Rich dad & Poor dad",
+
+      "author": "Morgan Housel",
+
+      "img": "/IMAGES/a2.png",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 3,
+
+      "title": "Greenlights",
+
+      "author": "Sadhguru, Leslie Howard",
+
+      "img": "/IMAGES/a3.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 4,
+
+      "title": "Unfinished",
+
+      "author": "Barack Obama",
+
+      "img": "/IMAGES/a4.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 5,
+
+      "title": "Friends,lovers and the big terrible thing",
+
+      "author": "typicode",
+
+      "img": "/IMAGES/a5.jfif",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 5,
+
+      "title": "I Am Malala",
+
+      "author": " David Goggins",
+
+      "img": "/IMAGES/a6.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 6,
+
+      "title": "Einstein : His life & universe",
+
+      "author": "J.K. Rowling",
+
+      "img": "/IMAGES/a7.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 7,
+
+      "title": "Me before You",
+
+      "author": "Douglas Adams",
+
+      "img": "/IMAGES/a8.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 8,
+
+      "title": "Spider-Man",
+
+      "author": "Paulo Coelho",
+
+      "img": "/IMAGES/a9.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 9,
+
+      "title": "The lord of rings",
+
+      "author": " Matt Haig",
+
+      "img": "/IMAGES/a10.webp",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 10,
+
+      "title": "Scorched Earth",
+
+      "author": " Amish Tripathi",
+
+      "img": "/IMAGES/a11.jpg",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    },
+
+    {
+
+      "id": 11,
+
+      "title": "The Last Astronaut",
+
+      "author": " Amish Tripathi",
+
+      "img": "/IMAGES/a12.jfif",
+
+      "aud": "/AUDIO/audio.mp3"
+
+    }
+
+  ],
+
+  "details": [
+
+    {
+
+      "user": "Anish",
+
+      "password": "anish",
+
+      "email": "anish@gmail.com",
+
+      "mobile": "7013575200",
+
+      "id": 1
+
+    }
+
+  ],
+
+  "items": [
+
+    {
+
+      "sys": { "id": "1" },
+
+      "fields": {
+
+        "title": "IKIGAI",
+
+       
+
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/511HccWipML._SL500_.jpg" } } },
+
+        "audio": "/AUDIO/audio.mp3"
+
+      }
+
+    },
+
+    {
+
+      "sys": { "id": "2" },
+
+      "fields": {
+
+        "title": "BHAGAVAD GITA",
+
+       
+
+        "image": { "fields": { "file": { "url":"https://m.media-amazon.com/images/I/71pJUadgKCS._AC_UY218_.jpg" } } },
+
+        "audio": "/AUDIO/audio.mp3"
+
+      }
+
+    },
+
+    {
+
+      "sys": { "id": "3" },
+
+      "fields": {
+
+        "title": "MORBID",
+
+       
+
+        "image": { "fields": { "file": { "url": "http://t1.gstatic.com/images?q=tbn:ANd9GcRtlYQBGdYfYfb-e6NBcd2Dq8LcNXrEgZlquIuwb1l656ucWOjW"} } },
+
+        "audio": "/AUDIO/audio.mp3"
+
+      }
+
+    },
+
+    {
+
+      "sys": { "id": "4" },
+
+      "fields": {
+
+        "title": "MENTAL HEALTH",
+
+       
+
+        "image": { "fields": { "file": { "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS4gXpvNLuWlquA4hUO1eAkzYqv7M-ZSvx5jdprovr8VP-PkTDk" } } },
+
+        "audio": "/AUDIO/audio.mp3"
+
+      }
+
+    },
+
+    {
+
+      "sys": { "id": "5" },
+
+      "fields": {
+
+        "title": "SPORTS WARS",
+
+       
+
+        "image": { "fields": { "file": { "url": "http://t1.gstatic.com/images?q=tbn:ANd9GcTwRw4Hz1PKCEV8LV6bm3a71vpD8HmQjYyHp5BlP44VJl5GLXgN"} } },
+
+        "audio": "/AUDIO/audio.mp3"
+
+      }
+
+    },
+
+    {
+
+      "sys": { "id": "6" },
+
+      "fields": {
+
+        "title": "THE RUN_THROUGH WITH VOGUE",
+
+     
+
+        "image": { "fields": { "file": { "url": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660818388cea16818289a2_Run%20through.webp" } } },
+
+        "audio": "/AUDIO/audio.mp3"
+
+      }
+
+    },
+
+    {
+
+      "sys": { "id": "7" },
+
+      "fields": {
+
+        "title": "THE REST IS HISTORY",
+
+     
+
+        "image": { "fields": { "file": { "url": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/65660c24225dc37b643513c1_The%20rest%20is%20history.webp" } } },
+
+        "audio": "/AUDIO/audio.mp3"
+
+      }
+
+    },
+
+    {
+
+      "sys": { "id": "8" },
+
+      "fields": {
+
+        "title": "THE REWATCHABLES",
+
+       
+
+        "image": { "fields": { "file": { "url": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/6566085a6edc9af8106219c1_rewatchables.webp" } } },
+
+        "audio": "/AUDIO/audio.mp3"
+
+      }
+
+    }
+
+  ],
+
+  "profile": {
+
+    "name": "typicode"
+
+  }
+
+}

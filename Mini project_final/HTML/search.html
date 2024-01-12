@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/sample.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            EchoTales
+        </div>
+        <div class="nav-items">
+            <!-- The Menu items -->
+            <li><a href="sample.html"><b>HOME</b></a></li>
+            <li><a href="/HTML/audiobooks-final.html"><b>AUDIO BOOKS</b></a></li>
+
+            <li><a href="/HTML/podcast-final.html"><b>PODCASTS</b></a></li>
+            <li><a href="/HTML/Favourites.html"><b>FAVOURITES</b></a></li>
+        </div>
+
+        <label for="searchInput"></label>
+        <input type="text" id="searchInput" oninput="searchBooks()" placeholder="Enter book name">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+            onclick="searchBooks();" viewBox="0 0 16 16">
+            <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+        </svg>
+        
+        <div id="bookList" style="background-color: aqua;">
+        </div>
+        <div class="licon">
+            <div class="dropdown">
+                <li id="myprofile" style="color:white;font-size: medium;display:none;"><b>MY Profile</b></li>
+                <div class="dropdown-content">
+                    <a href="login-final.html">Sign Out</a>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="/img/audible_logo._CB490888215_.svg" alt="">
+        </div>
+    </nav>
+    </header>
+    <div id="matchingtitle"></div>
+    <script>
+        const quarString = window.location.search;
+        const urlParams = new URLSearchParams(quarString);
+        let searchParam = urlParams.get('book');
+        console.log(searchParam);
+        let audioURL = "http://localhost:3000/audioorpodcasts";
+        let ress1;
+        let b = async () => {
+            ress1 = await fetch(audioURL);
+            let books = await ress1.json();
+            let row = '';
+            for (let i = 0; i < books.length; i++) {
+                if (searchParam === books[i].title) {
+                    row = `<div style="display:flex; flex-direction:column; align-items:center; height:100vh; justify-content:center">
+                <div style="margin: 10px;">
+                    <img src="${books[i].img}" width="200px" height="200px"/>
+                <audio controls style="margin-top: 5px; width: 200px;"> <source src="${books[i].aud}  "/></audio>
+                </div>`;
+                }
+            }
+            document.getElementById('matchingtitle').innerHTML = row
+        }
+        b();
+    </script>
+    <script src="/JS/search.js"></script>
+</body>
+
+</html>

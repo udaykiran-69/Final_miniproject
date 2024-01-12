@@ -1,0 +1,174 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Ikigai",
+            "author": "Héctor García, Francesc Miralles",
+            "img": "/IMAGES/a1.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 2,
+            "title": "The Psychology of Money",
+            "author": "Morgan Housel",
+            "img": "/IMAGES/a2.png",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 3,
+            "title": "Karma: A Yogi's Guide to Crafting Your Own Destiny",
+            "author": "Sadhguru, Leslie Howard",
+            "img": "/IMAGES/a3.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 4,
+            "title": "A Promised Land",
+            "author": "Barack Obama",
+            "img": "/IMAGES/a4.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 5,
+            "title": "json-server",
+            "author": "typicode",
+            "img": "/IMAGES/a5.jfif",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 5,
+            "title": "Can't Hurt Me",
+            "author": " David Goggins",
+            "img": "/IMAGES/a6.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 6,
+            "title": "Harry Potter and the Philosopher's Stone, Book 1",
+            "author": "J.K. Rowling",
+            "img": "/IMAGES/a7.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 7,
+            "title": "Hitchhiker's Guide to the Galaxy",
+            "author": "Douglas Adams",
+            "img": "/IMAGES/a8.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 8,
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "img": "/IMAGES/a9.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 9,
+            "title": "The Midnight Library",
+            "author": " Matt Haig",
+            "img": "/IMAGES/a10.webp",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 10,
+            "title": "Raavan",
+            "author": " Amish Tripathi",
+            "img": "/IMAGES/a11.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 10,
+            "title": "Raavan",
+            "author": " Amish Tripathi",
+            "img": "/IMAGES/a12.jfif",
+            "aud": "/AUDIO/audio.mp3"
+        }
+    ],
+    "audio": [
+        {
+            "id": 1,
+            "title": "Ikigai",
+            "author": "Héctor García, Francesc Miralles",
+            "img": "/IMAGES/a1.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 2,
+            "title": "The Psychology of Money",
+            "author": "Morgan Housel",
+            "img": "/IMAGES/a2.png",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 3,
+            "title": "Karma: A Yogi's Guide to Crafting Your Own Destiny",
+            "author": "Sadhguru, Leslie Howard",
+            "img": "/IMAGES/a3.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 4,
+            "title": "A Promised Land",
+            "author": "Barack Obama",
+            "img": "/IMAGES/a4.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 5,
+            "title": "json-server",
+            "author": "typicode",
+            "img": "/IMAGES/a5.jfif",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 5,
+            "title": "Can't Hurt Me",
+            "author": " David Goggins",
+            "img": "/IMAGES/a6.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 6,
+            "title": "Harry Potter and the Philosopher's Stone, Book 1",
+            "author": "J.K. Rowling",
+            "img": "/IMAGES/a7.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 7,
+            "title": "Hitchhiker's Guide to the Galaxy",
+            "author": "Douglas Adams",
+            "img": "/IMAGES/a8.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 8,
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "img": "/IMAGES/a9.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 9,
+            "title": "The Midnight Library",
+            "author": " Matt Haig",
+            "img": "/IMAGES/a10.webp",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 10,
+            "title": "Raavan",
+            "author": " Amish Tripathi",
+            "img": "/IMAGES/a11.jpg",
+            "aud": "/AUDIO/audio.mp3"
+        },
+        {
+            "id": 10,
+            "title": "Raavan",
+            "author": " Amish Tripathi",
+            "img": "/IMAGES/a12.jfif",
+            "aud": "/AUDIO/audio.mp3"
+        }
+    ]
+}

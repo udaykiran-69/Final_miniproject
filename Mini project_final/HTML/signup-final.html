@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/CSS/sign_up-final.css">
+</head>
+
+<body>
+    <div class="signup-form">
+        <form id="form1" onsubmit="signup(event)">
+            <h2>Sign Up</h2>
+            <div>
+                <input type="text" id="name" class="name" placeholder="Full Name" required>
+                <p id="name_error"></p>
+            </div>
+            <div>
+                <input type="email" id="email" class="email" placeholder="Email Address">
+                <p id="email_error"></p>
+            </div>
+            <div>
+                <input type="number" id="mobile" class="mobile" placeholder="Mobile Number" required>
+                <p id="number_error"></p>
+            </div>
+            <div>
+                <input type="password" id="password" class="password" placeholder="Password" required>
+                <p id="password_error"></p>
+            </div>
+            <div>
+                <input type="password" id="cpassword" class="confirm_password" placeholder="Confirm Password" required>
+                <p id="confirm_error"></p>
+            </div>
+            <button type="submit" class="submit" id="submit">Sign Up</button>
+            <p>Have an account ? <a href="/HTML/login-final.html">Login</a></p>
+        </form>
+    </div>
+    <script src="/JS/login-signup.js"></script>
+</body>
+
+</html>
